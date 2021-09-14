@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+  background-color: #f8f8f8;
+}
+
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+  object-fit: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.image1 {
+  background-image: url(./img/image1.jpg);
+  height: 100%;
+}
+
+.image2 {
+  background-image: url(./img/image2.jpg);
+  height: 40%;
+}
+
+.image3 {
+  background-image: url(./img/image3.jpg);
+  height: 40%;
+}
+
+.image4 {
+  background-image: url(./img/image4.jpg);
+  height: 40%;
+}
+
+.image5 {
+  background-image: url(./img/image5.jpg);
+  height: 40%;
+}
+
+.image6 {
+  background-image: url(./img/image6.png);
+  height: 40%;
+}
+
+.text {
+  position: absolute;
+  font-size: 27px;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #000;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.border {
+  background-color: #be2826;
+  padding: 20px;
+  color: #fff;
+  display: block;
+}
+
+.border-transparent {
+  background: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.section {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  padding: 50px;
+}
+
+.black {
+  background-color: #282e34;
+  color: white;
+}
